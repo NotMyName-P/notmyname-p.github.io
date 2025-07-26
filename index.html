@@ -1,216 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ActHact - Premium ACT Prep</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>u/RoadPrimary6720 - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Header -->
-  <header class="header">
-    <a href="#" class="logo">ActHact</a>
-    <nav class="nav-buttons" id="nav-buttons">
-      <a href="#" class="nav-btn login-btn" id="login-button">Login</a>
-      <a href="#" class="nav-btn signup-btn" id="signup-button">Sign Up</a>
-    </nav>
-    <div class="user-info hidden" id="user-info">
-      <div class="user-avatar" id="user-avatar">JD</div>
-      <div class="user-details">
-        <h3 id="user-name">John Doe</h3>
-      </div>
-      <button class="logout-btn" id="logout-button" aria-label="Log Out">
-        <i class="fas fa-sign-out-alt"></i> Log Out
-      </button>
-    </div>
-  </header>
+    <header>
+        <h1>u/RoadPrimary6720</h1>
+        <p>Website Design Portfolio</p>
+    </header>
 
-  <!-- Main Content -->
-  <main id="homepage">
-    <!-- Hero Section -->
-    <section class="hero">
-      <h1 class="hero-title">Master the ACT with Proven Strategies</h1>
-      <p class="hero-subtitle">Join thousands of students who have improved their scores by 5+ points on average with our comprehensive ACT prep program.</p>
-      <a href="#pricing" class="cta-btn" id="cta-button">Get Started Now</a>
-    </section>
+    <main id="portfolio-grid">
+        <!-- Portfolio items will be injected here by script.js -->
+    </main>
 
-    <!-- Features Section -->
-    <section class="features">
-      <div class="container">
-        <h2 class="section-title">Why Choose ActHact?</h2>
-        <div class="features-grid">
-          <div class="feature-card">
-            <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
-            <h3 class="feature-title">Score Improvement</h3>
-            <p class="feature-description">Average score improvement of 5 points across all sections</p>
-          </div>
-          <div class="feature-card">
-            <div class="feature-icon"><i class="fas fa-book"></i></div>
-            <h3 class="feature-title">Comprehensive Content</h3>
-            <p class="feature-description">Full coverage of all ACT sections with detailed lessons</p>
-          </div>
-          <div class="feature-card">
-            <div class="feature-icon"><i class="fas fa-clock"></i></div>
-            <h3 class="feature-title">Time Management</h3>
-            <p class="feature-description">Strategies to help you manage time effectively during the test</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <footer>
+        <p>Contact me on Reddit: <a href="https://www.reddit.com/user/RoadPrimary6720/" target="_blank">u/RoadPrimary6720</a></p>
+    </footer>
 
-    <!-- Testimonials Section -->
-    <section class="testimonials">
-      <div class="container">
-        <h2 class="section-title">Success Stories</h2>
-        <div class="testimonials-grid">
-          <div class="testimonial-card">
-            <p class="testimonial-content">"ActHact helped me improve my composite score from 28 to 33! The math strategies were especially helpful for tackling the harder problems."</p>
-            <div class="testimonial-author">
-              <div class="author-avatar">SR</div>
-              <div class="author-details">
-                <h4>Sarah Reynolds</h4>
-                <p>Scored 33 on ACT</p>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-card">
-            <p class="testimonial-content">"I was struggling with the science section, but ActHact's approach to data interpretation completely changed how I approach these questions."</p>
-            <div class="testimonial-author">
-              <div class="author-avatar">MJ</div>
-              <div class="author-details">
-                <h4>Michael Johnson</h4>
-                <p>Science score improved by 6 points</p>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-card">
-            <p class="testimonial-content">"The personalized study plan and practice tests were exactly what I needed to stay on track during my junior year."</p>
-            <div class="testimonial-author">
-              <div class="author-avatar">EP</div>
-              <div class="author-details">
-                <h4>Emily Parker</h4>
-                <p>Accepted to Stanford University</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Pricing Section -->
-    <section class="pricing" id="pricing">
-      <div class="container">
-        <h2 class="section-title">Choose Your Plan</h2>
-        <div class="pricing-grid">
-          <!-- Basic Plan -->
-          <div class="pricing-card">
-            <div class="pricing-icon"><i class="fas fa-graduation-cap"></i></div>
-            <h3 class="pricing-title">Basic</h3>
-            <div class="pricing-price">$29<span>/month</span></div>
-            <ul class="pricing-features">
-              <li><i class="fas fa-check"></i> Full course access</li>
-              <li><i class="fas fa-check"></i> Practice questions</li>
-              <li><i class="fas fa-check"></i> Study guides</li>
-              <li><i class="fas fa-times"></i> Full-length tests</li>
-              <li><i class="fas fa-times"></i> Personalized coaching</li>
-            </ul>
-            <button class="pricing-btn" id="basic-plan-btn">Get Started</button>
-          </div>
-          <!-- Premium Plan -->
-          <div class="pricing-card popular">
-            <div class="popular-badge">Popular</div>
-            <div class="pricing-icon"><i class="fas fa-medal"></i></div>
-            <h3 class="pricing-title">Premium</h3>
-            <div class="pricing-price">$79<span>/month</span></div>
-            <ul class="pricing-features">
-              <li><i class="fas fa-check"></i> All Basic features</li>
-              <li><i class="fas fa-check"></i> 8 full-length tests</li>
-              <li><i class="fas fa-check"></i> Video explanations</li>
-              <li><i class="fas fa-check"></i> Progress analytics</li>
-              <li><i class="fas fa-check"></i> Essay grading</li>
-            </ul>
-            <button class="pricing-btn" id="premium-plan-btn">Get Started</button>
-          </div>
-          <!-- Elite Plan -->
-          <div class="pricing-card">
-            <div class="pricing-icon"><i class="fas fa-crown"></i></div>
-            <h3 class="pricing-title">Elite</h3>
-            <div class="pricing-price">$149<span>/month</span></div>
-            <ul class="pricing-features">
-              <li><i class="fas fa-check"></i> All Premium features</li>
-              <li><i class="fas fa-check"></i> Weekly coaching sessions</li>
-              <li><i class="fas fa-check"></i> Custom study plan</li>
-              <li><i class="fas fa-check"></i> College application guidance</li>
-              <li><i class="fas fa-check"></i> Priority support</li>
-            </ul>
-            <button class="pricing-btn" id="elite-plan-btn">Get Started</button>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- Auth Modal -->
-  <div class="auth-modal" id="auth-modal">
-    <div class="auth-content">
-      <button class="close-modal" id="close-modal" aria-label="Close authentication window">
-        <i class="fas fa-times"></i>
-      </button>
-      <div class="auth-tabs">
-        <div class="auth-tab active" data-tab="login">Login</div>
-        <div class="auth-tab" data-tab="signup">Create Account</div>
-      </div>
-      <!-- Login Form -->
-      <form class="auth-form active" id="login-form">
-        <div class="form-group">
-          <label for="login-email">Email Address</label>
-          <input type="email" id="login-email" placeholder="your@email.com" required>
-        </div>
-        <div class="form-group">
-          <label for="login-password">Password</label>
-          <input type="password" id="login-password" placeholder="••••••••" required>
-        </div>
-        <button type="submit" class="btn">Sign In</button>
-        <div class="auth-message" id="login-message"></div>
-      </form>
-      <!-- Signup Form -->
-      <form class="auth-form" id="signup-form">
-        <div class="form-group">
-          <label for="signup-firstname">First Name</label>
-          <input type="text" id="signup-firstname" placeholder="John" required>
-        </div>
-        <div class="form-group">
-          <label for="signup-lastname">Last Name</label>
-          <input type="text" id="signup-lastname" placeholder="Doe" required>
-        </div>
-        <div class="form-group">
-          <label for="signup-email">Email Address</label>
-          <input type="email" id="signup-email" placeholder="your@email.com" required>
-        </div>
-        <div class="form-group">
-          <label for="signup-password">Password</label>
-          <input type="password" id="signup-password" placeholder="••••••••" required>
-        </div>
-        <div class="form-group">
-          <label for="signup-confirm">Confirm Password</label>
-          <input type="password" id="signup-confirm" placeholder="••••••••" required>
-        </div>
-        <button type="submit" class="btn">Create Account</button>
-        <div class="auth-message" id="signup-message"></div>
-      </form>
-    </div>
-  </div>
-
-  <!-- External Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="https://js.stripe.com/v3/"></script>
-  
-  <!-- Your Custom Scripts -->
-  <script src="auth.js"></script>
-  <script src="stripe.js"></script>
-  <script src="script.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>
